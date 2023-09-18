@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" data-content_root="./">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Index &#8212; bci-build-templates  documentation</title>
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/sphinx_highlight.js"></script>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=039e1c02" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <link rel="index" title="Index" href="#" />
     <link rel="search" title="Search" href="search.html" />
    
@@ -64,8 +64,6 @@
 </li>
       <li><a href="api.html#staging.bot.StagingBot.add_changelog_entry">add_changelog_entry() (staging.bot.StagingBot method)</a>
 </li>
-      <li><a href="api.html#bci_build.update.BciUpdater.add_files">add_files() (bci_build.update.BciUpdater method)</a>
-</li>
       <li><a href="api.html#bci_build.package.BaseContainerImage.additional_names">additional_names (bci_build.package.BaseContainerImage attribute)</a>
 </li>
       <li><a href="api.html#bci_build.package.LanguageStackContainer.additional_versions">additional_versions (bci_build.package.LanguageStackContainer attribute)</a>
@@ -90,9 +88,11 @@
 <h2 id="B">B</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api.html#bci_build.package.OsVersion.BASALT">BASALT (bci_build.package.OsVersion attribute)</a>
+</li>
       <li><a href="api.html#bci_build.package.BaseContainerImage">BaseContainerImage (class in bci_build.package)</a>
 </li>
-      <li><a href="api.html#bci_build.update.BciUpdater.bci">bci (bci_build.update.BciUpdater attribute)</a>
+      <li><a href="api.html#bci_build.package.ImageProperties.based_on_container_description">based_on_container_description (bci_build.package.ImageProperties attribute)</a>
 </li>
       <li>
     bci_build.package
@@ -108,25 +108,16 @@
         <li><a href="api.html#module-bci_build.templates">module</a>
 </li>
       </ul></li>
-      <li>
-    bci_build.update
-
-      <ul>
-        <li><a href="api.html#module-bci_build.update">module</a>
-</li>
-      </ul></li>
       <li><a href="api.html#staging.bot.StagingBot.bcis">bcis (staging.bot.StagingBot property)</a>
-</li>
-      <li><a href="api.html#bci_build.update.BciUpdater">BciUpdater (class in bci_build.update)</a>
 </li>
       <li><a href="api.html#bci_build.package.ReleaseStage.BETA">BETA (bci_build.package.ReleaseStage attribute)</a>
 </li>
       <li><a href="api.html#staging.build_result.PackageStatusCode.BLOCKED">BLOCKED (staging.build_result.PackageStatusCode attribute)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="api.html#bci_build.package.PackageType.BOOTSTRAP">BOOTSTRAP (bci_build.package.PackageType attribute)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="api.html#staging.bot.StagingBot.branch_name">branch_name (staging.bot.StagingBot attribute)</a>
 </li>
       <li><a href="api.html#staging.build_result.PackageStatusCode.BROKEN">BROKEN (staging.build_result.PackageStatusCode attribute)</a>
@@ -245,10 +236,16 @@
 </li>
       <li><a href="api.html#bci_build.package.BaseContainerImage.env_lines">env_lines (bci_build.package.BaseContainerImage property)</a>
 </li>
-      <li><a href="api.html#staging.build_result.PackageStatusCode.EXCLUDED">EXCLUDED (staging.build_result.PackageStatusCode attribute)</a>
+      <li><a href="api.html#bci_build.package.BaseContainerImage.eula">eula (bci_build.package.BaseContainerImage property)</a>
+
+      <ul>
+        <li><a href="api.html#bci_build.package.ImageProperties.eula">(bci_build.package.ImageProperties attribute)</a>
 </li>
+      </ul></li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api.html#staging.build_result.PackageStatusCode.EXCLUDED">EXCLUDED (staging.build_result.PackageStatusCode attribute)</a>
+</li>
       <li><a href="api.html#bci_build.package.BaseContainerImage.exclusive_arch">exclusive_arch (bci_build.package.BaseContainerImage attribute)</a>
 </li>
       <li><a href="api.html#bci_build.package.BaseContainerImage.expose_dockerfile">expose_dockerfile (bci_build.package.BaseContainerImage property)</a>
@@ -305,8 +302,6 @@
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api.html#bci_build.update.get_bci_project_name">get_bci_project_name() (in module bci_build.update)</a>
-</li>
       <li><a href="api.html#staging.bot.StagingBot.get_packages_without_changelog_addition">get_packages_without_changelog_addition() (staging.bot.StagingBot method)</a>
 </li>
   </ul></td>
@@ -375,10 +370,10 @@
 </li>
       <li><a href="api.html#bci_build.package.BaseContainerImage.labelprefix">labelprefix (bci_build.package.BaseContainerImage property)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="api.html#bci_build.package.LanguageStackContainer">LanguageStackContainer (class in bci_build.package)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="api.html#bci_build.package.BaseContainerImage.license">license (bci_build.package.BaseContainerImage attribute)</a>
 </li>
       <li><a href="api.html#bci_build.package.BaseContainerImage.lifecycle_url">lifecycle_url (bci_build.package.BaseContainerImage property)</a>
@@ -387,6 +382,8 @@
         <li><a href="api.html#bci_build.package.ImageProperties.lifecycle_url">(bci_build.package.ImageProperties attribute)</a>
 </li>
       </ul></li>
+      <li><a href="api.html#staging.bot.StagingBot.link_base_container_to_staging">link_base_container_to_staging() (staging.bot.StagingBot method)</a>
+</li>
       <li><a href="api.html#bci_build.package.Arch.LOCAL">LOCAL (bci_build.package.Arch attribute)</a>
 </li>
   </ul></td>
@@ -419,8 +416,6 @@
 </li>
         <li><a href="api.html#module-bci_build.templates">bci_build.templates</a>
 </li>
-        <li><a href="api.html#module-bci_build.update">bci_build.update</a>
-</li>
         <li><a href="api.html#module-staging.bot">staging.bot</a>
 </li>
         <li><a href="api.html#module-staging.build_result">staging.build_result</a>
@@ -452,16 +447,20 @@
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="api.html#staging.bot.StagingBot.obs_workflows_yml">obs_workflows_yml (staging.bot.StagingBot property)</a>
 </li>
+      <li><a href="api.html#bci_build.package.BaseContainerImage.os_epoch">os_epoch (bci_build.package.BaseContainerImage attribute)</a>
+</li>
       <li><a href="api.html#bci_build.package.BaseContainerImage.os_version">os_version (bci_build.package.BaseContainerImage attribute)</a>
 
       <ul>
         <li><a href="api.html#staging.bot.StagingBot.os_version">(staging.bot.StagingBot attribute)</a>
 </li>
       </ul></li>
-      <li><a href="api.html#staging.bot.OSC_PASSWORD_ENVVAR_NAME">OSC_PASSWORD_ENVVAR_NAME (in module staging.bot)</a>
+      <li><a href="api.html#staging.bot.OS_VERSION_NEEDS_BASE_CONTAINER">OS_VERSION_NEEDS_BASE_CONTAINER (in module staging.bot)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api.html#staging.bot.OSC_PASSWORD_ENVVAR_NAME">OSC_PASSWORD_ENVVAR_NAME (in module staging.bot)</a>
+</li>
       <li><a href="api.html#staging.bot.OSC_USER_ENVVAR_NAME">OSC_USER_ENVVAR_NAME (in module staging.bot)</a>
 </li>
       <li><a href="api.html#staging.bot.StagingBot.osc_username">osc_username (staging.bot.StagingBot attribute)</a>
@@ -498,10 +497,10 @@
       </ul></li>
       <li><a href="api.html#staging.build_result.PackageStatusCode">PackageStatusCode (class in staging.build_result)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="api.html#bci_build.package.PackageType">PackageType (class in bci_build.package)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="api.html#bci_build.package.OsVersion.parse">parse() (bci_build.package.OsVersion static method)</a>
 </li>
       <li><a href="api.html#bci_build.package.Replacement.parse_version">parse_version (bci_build.package.Replacement attribute)</a>
@@ -513,6 +512,8 @@
       <li><a href="api.html#bci_build.package.Arch.PPC64LE">PPC64LE (bci_build.package.Arch attribute)</a>
 </li>
       <li><a href="api.html#bci_build.package.BaseContainerImage.pretty_name">pretty_name (bci_build.package.BaseContainerImage attribute)</a>
+</li>
+      <li><a href="api.html#bci_build.package.OsVersion.pretty_os_version_no_dash">pretty_os_version_no_dash (bci_build.package.OsVersion property)</a>
 </li>
       <li><a href="api.html#bci_build.package.OsVersion.pretty_print">pretty_print (bci_build.package.OsVersion property)</a>
 </li>
@@ -592,6 +593,12 @@
 </li>
       <li><a href="api.html#bci_build.package.OsVersion.SP5">SP5 (bci_build.package.OsVersion attribute)</a>
 </li>
+      <li><a href="api.html#bci_build.package.OsVersion.SP6">SP6 (bci_build.package.OsVersion attribute)</a>
+</li>
+      <li><a href="api.html#bci_build.package.LanguageStackContainer.stability_tag">stability_tag (bci_build.package.LanguageStackContainer attribute)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li>
     staging.bot
 
@@ -599,8 +606,6 @@
         <li><a href="api.html#module-staging.bot">module</a>
 </li>
       </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li>
     staging.build_result
 
@@ -665,8 +670,6 @@
       <li><a href="api.html#staging.build_result.PackageStatusCode.UNRESOLVABLE">UNRESOLVABLE (staging.build_result.PackageStatusCode attribute)</a>
 </li>
       <li><a href="api.html#bci_build.package.SupportLevel.UNSUPPORTED">UNSUPPORTED (bci_build.package.SupportLevel attribute)</a>
-</li>
-      <li><a href="api.html#bci_build.update.update_package">update_package() (in module bci_build.update)</a>
 </li>
       <li><a href="api.html#bci_build.package.BaseContainerImage.url">url (bci_build.package.BaseContainerImage property)</a>
 
@@ -802,7 +805,7 @@
       &copy;2022, Dan Čermák.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.6</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
       
     </div>
